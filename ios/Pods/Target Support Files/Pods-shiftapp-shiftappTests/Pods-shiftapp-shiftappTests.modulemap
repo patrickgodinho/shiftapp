@@ -1,0 +1,6 @@
+module Pods_shiftapp_shiftappTests {
+  umbrella header "Pods-shiftapp-shiftappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
