@@ -1,7 +1,8 @@
 import React from 'react';
-import {Button, Text, View} from 'react-native';
+import {Button, Text} from 'react-native';
 import {useDispatch} from 'react-redux';
 import {logout} from '../auth/authSlice';
+import {Container} from './style';
 
 export default () => {
   const dispatch = useDispatch();
@@ -9,9 +10,9 @@ export default () => {
   const handleLogout = () => dispatch(logout());
 
   return (
-    <View>
+    <Container>
       <Text>HOME</Text>
       <Button title="Logout" onPress={handleLogout} />
-    </View>
+    </Container>
   );
 };

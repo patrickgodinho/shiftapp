@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "443048633039",
+    "project_id": "shiftapp-dabc2",
+    "storage_bucket": "shiftapp-dabc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443048633039:android:32fd688ad77878a5288dba",
+        "android_client_info": {
+          "package_name": "com.shiftapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443048633039-7outude4bdo2us48f58s3j86impb9jj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwY2JQ6jE9cVdS4QevGg6gOBPa-P1kgJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443048633039-7outude4bdo2us48f58s3j86impb9jj4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "443048633039-obfj1s81abpabfp8nna5basa775dd2su.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shiftapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
