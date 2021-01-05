@@ -1,4 +1,4 @@
-import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+import {createSlice} from '@reduxjs/toolkit';
 import {DefaultTheme} from 'styled-components/native';
 import {darkTheme, lightTheme} from './themes';
 

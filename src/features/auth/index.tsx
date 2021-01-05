@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Alert, ScrollView} from 'react-native';
-import {login} from './authSlice';
+import {login} from './slice';
 import auth from '@react-native-firebase/auth';
 import {useDispatch} from 'react-redux';
 import {Container} from './style';

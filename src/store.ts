@@ -3,7 +3,7 @@ import {
   configureStore,
   getDefaultMiddleware,
 } from '@reduxjs/toolkit';
-import authSlice from './features/auth/authSlice';
+import authSlice from './features/auth/slice';
 import themeSlice from './theme/slice';
 import {
   persistReducer,

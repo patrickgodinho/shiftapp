@@ -6,7 +6,7 @@ interface AuthState {
 }
 const initialState = {isLogged: false} as AuthState;
 
-const authSlice = createSlice({
+const slice = createSlice({
   name: 'auth',
   initialState,
   reducers: {
@@ -21,5 +21,5 @@ const authSlice = createSlice({
   },
 });
 
-export const {login, logout} = authSlice.actions;
-export default authSlice.reducer;
+export const {login, logout} = slice.actions;
+export default slice.reducer;

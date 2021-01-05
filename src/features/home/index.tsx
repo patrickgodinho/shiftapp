@@ -1,9 +1,9 @@
 import React from 'react';
 import {Button, Text} from 'react-native';
-import { useDispatch, useSelector } from "react-redux";
-import {logout} from '../auth/authSlice';
+import {useDispatch, useSelector} from 'react-redux';
+import {logout} from '../auth/slice';
 import {Container} from './style';
-import { RootState } from "../../store";
+import {RootState} from '../../store';
 
 export default () => {
   const dispatch = useDispatch();
