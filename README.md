@@ -1,5 +1,5 @@
 # Shift App
-A boilerplate using React Native, Redux, Redux Toolkit, Redux Persist, Firebase and Styled Components. 
+A starter app using React Native, Redux, Redux Toolkit, Redux Persist, Firebase and Styled Components. 
 
 
 ### Requirements and resolutions:
@@ -8,7 +8,8 @@ A boilerplate using React Native, Redux, Redux Toolkit, Redux Persist, Firebase 
       - `index.tsx`: Tthe react component
       - `slice.ts`: All Feature Redux logic using createSlice by Redux Toolkit <3
       - `style.ts`: Custom components stylized using styled-components.
-    ![img.png](img.png)
+      
+        ![img.png](img.png)
         
 - Simple login screen with login functional enable using Firebase Auth (could be email sign in or Google sign in)
     - This boilerplate is using Email sign-in approach using `react-native-firebase` lib.
